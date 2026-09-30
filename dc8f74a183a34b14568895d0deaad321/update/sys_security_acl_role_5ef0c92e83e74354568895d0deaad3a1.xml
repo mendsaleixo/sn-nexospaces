@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 12:00:44</sys_created_on>
+        <sys_id>5ef0c92e83e74354568895d0deaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1915295_nexosp_0_x_nexospaces_espaco.x_1915295_nexosp_0.nexospaces_user</sys_name>
+        <sys_package display_value="NexoSpaces" source="x_1915295_nexosp_0">dc8f74a183a34b14568895d0deaad321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexoSpaces">dc8f74a183a34b14568895d0deaad321</sys_scope>
+        <sys_security_acl display_value="x_1915295_nexosp_0_x_nexospaces_espaco">06f0c92e83e74354568895d0deaad399</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5ef0c92e83e74354568895d0deaad3a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 12:00:44</sys_updated_on>
+        <sys_user_role display_value="x_1915295_nexosp_0.nexospaces_user" name="x_1915295_nexosp_0.nexospaces_user">ac8f74a183a34b14568895d0deaad366</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tipo_instalacao" label="Tipo de Instalação" language="en" table="x_1915295_nexosp_0_x_nexospaces_chamado_facilities">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tipo_instalacao</element>
+            <help/>
+            <hint/>
+            <label>Tipo de Instalação</label>
+            <language>en</language>
+            <name>x_1915295_nexosp_0_x_nexospaces_chamado_facilities</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 12:49:31</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Tipo de Instalação</sys_name>
+            <sys_package display_value="NexoSpaces" source="x_1915295_nexosp_0">dc8f74a183a34b14568895d0deaad321</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NexoSpaces">dc8f74a183a34b14568895d0deaad321</sys_scope>
+            <sys_update_name>sys_documentation_x_1915295_nexosp_0_x_nexospaces_chamado_facilities_tipo_instalacao_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 12:49:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

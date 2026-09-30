@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e1e0852e83e74354568895d0deaad370" label="Espaço" max_length="40" name="x_1915295_nexosp_0_x_nexospaces_espaco" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Unidade" max_length="40" name="unidade" type="string"/>
+        <element label="Capacidade" max_length="40" name="capacidade" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome" max_length="40" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tipo" max_length="40" name="tipo" type="string"/>
+    </element>
+</database>
