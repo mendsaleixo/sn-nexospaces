@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c8720dee83e74354568895d0deaad35c" label="Reserva" max_length="40" name="x_1915295_nexosp_0_x_nexospaces_reserva" type="collection">
         <element label="Solicitante" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
-        <element label="Data Fim" max_length="40" name="data_fim" type="glide_date_time"/>
-        <element label="Espaço" max_length="32" name="espaco" reference="x_1915295_nexosp_0_x_nexospaces_espaco" type="reference"/>
-        <element label="Data Início" max_length="40" name="data_inicio" type="glide_date_time"/>
+        <element label="Data Fim" mandatory="true" max_length="40" name="data_fim" type="glide_date_time"/>
+        <element choice="3" display="true" label="Espaço" mandatory="true" max_length="32" name="espaco" reference="x_1915295_nexosp_0_x_nexospaces_espaco" type="reference">
+            <choice/>
+        </element>
+        <element label="Data Início" mandatory="true" max_length="40" name="data_inicio" type="glide_date_time"/>
         <element choice="3" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cancelada" sequence="2" value="cancelada"/>

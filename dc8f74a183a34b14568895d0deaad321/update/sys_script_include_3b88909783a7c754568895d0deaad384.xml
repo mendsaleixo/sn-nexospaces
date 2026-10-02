@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1915295_nexosp_0.ReservaAjaxUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Verifica se a data e espaço escolhido na tabela reserva está disponível.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>ReservaAjaxUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ReservaAjaxUtils = Class.create();
+ReservaAjaxUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    verificarDisponibilidadeEspaco: function() {
+        var espacoId = this.getParameter('sysparm_espaco');
+        var dataInicioStr = this.getParameter('sysparm_data_inicio');
+        var dataFimStr = this.getParameter('sysparm_data_fim');
+        var currentId = this.getParameter('sysparm_sys_id');
+        
+        if (!espacoId || !dataInicioStr || !dataFimStr) {
+            return 'false';
+        }
+
+        var grReserva = new GlideRecord('x_1915295_nexosp_0_x_nexospaces_reserva');
+        grReserva.addQuery('espaco', espacoId); 
+        
+        // Conversão vital: Recebe o horário da tela (Local) e converte para o formato do banco (UTC)
+        var dtInicio = new GlideDateTime();
+        dtInicio.setDisplayValue(dataInicioStr);
+        
+        var dtFim = new GlideDateTime();
+        dtFim.setDisplayValue(dataFimStr);
+
+        // .getValue() aplica a data convertida matematicamente na pesquisa
+        grReserva.addQuery('data_inicio', '<', dtFim.getValue());
+        grReserva.addQuery('data_fim', '>', dtInicio.getValue());
+
+        // Proteção para ignorar o próprio registo em caso de edição
+        if (currentId && currentId != 'undefined' && currentId != '') {
+            grReserva.addQuery('sys_id', '!=', currentId);
+        }
+
+        grReserva.query();
+
+        if (grReserva.hasNext()) {
+            return 'true'; // Achou conflito!
+        }
+
+        return 'false'; // Tá livre!
+    },
+    
+    type: 'ReservaAjaxUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 17:23:44</sys_created_on>
+        <sys_id>3b88909783a7c754568895d0deaad384</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ReservaAjaxUtils</sys_name>
+        <sys_package display_value="NexoSpaces" source="x_1915295_nexosp_0">dc8f74a183a34b14568895d0deaad321</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NexoSpaces">dc8f74a183a34b14568895d0deaad321</sys_scope>
+        <sys_update_name>sys_script_include_3b88909783a7c754568895d0deaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-01 18:30:52</sys_updated_on>
+    </sys_script_include>
+</record_update>

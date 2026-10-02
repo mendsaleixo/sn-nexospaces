@@ -1,16 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="e0724da683e74354568895d0deaad32f" sys_domain="global" table="x_1915295_nexosp_0_x_nexospaces_reserva" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>solicitante</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 12:07:10</sys_created_on>
-            <sys_id>e8724dee83e74354568895d0deaad366</sys_id>
+            <sys_created_on>2026-10-01 14:06:19</sys_created_on>
+            <sys_id>cf7a702383ef4b54568895d0deaad328</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1915295_nexosp_0_x_nexospaces_reserva" sys_domain="global" view="Default view">e0724da683e74354568895d0deaad32f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 12:07:10</sys_updated_on>
+            <sys_updated_on>2026-10-01 14:06:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_inicio</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-01 14:06:19</sys_created_on>
+            <sys_id>877a702383ef4b54568895d0deaad32a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1915295_nexosp_0_x_nexospaces_reserva" sys_domain="global" view="Default view">e0724da683e74354568895d0deaad32f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-01 14:06:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-01 14:06:19</sys_created_on>
+            <sys_id>077a702383ef4b54568895d0deaad32b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1915295_nexosp_0_x_nexospaces_reserva" sys_domain="global" view="Default view">e0724da683e74354568895d0deaad32f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-01 14:06:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-01 14:06:19</sys_created_on>
+            <sys_id>837a702383ef4b54568895d0deaad32c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1915295_nexosp_0_x_nexospaces_reserva" sys_domain="global" view="Default view">e0724da683e74354568895d0deaad32f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-01 14:06:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>espaco</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-01 14:06:19</sys_created_on>
+            <sys_id>037a702383ef4b54568895d0deaad32d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1915295_nexosp_0_x_nexospaces_reserva" sys_domain="global" view="Default view">e0724da683e74354568895d0deaad32f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-01 14:06:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_fim</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-01 14:06:19</sys_created_on>
+            <sys_id>8f7a702383ef4b54568895d0deaad32d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1915295_nexosp_0_x_nexospaces_reserva" sys_domain="global" view="Default view">e0724da683e74354568895d0deaad32f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-01 14:06:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

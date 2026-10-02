@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true" label="Unidade" max_length="40" name="unidade" type="string"/>
         <element label="Capacidade" max_length="40" name="capacidade" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="status" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Nome" max_length="40" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Nome" max_length="40" name="nome" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Tipo" max_length="40" name="tipo" type="string"/>
     </element>
 </database>
