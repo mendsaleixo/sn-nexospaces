@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="13d78dea832b4354568895d0deaad30b" extends="task" label="Chamado de Facilities" max_length="40" name="x_1915295_nexosp_0_x_nexospaces_chamado_facilities" type="collection">
+        <element choice="3" label="Tipo de Instalação" max_length="40" name="tipo_instalacao" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mobiliário / Estrutura" sequence="3" value="mobiliario_estrutura"/>
+                <element inactive_on_update="false" label="Climatização (Ar-Condicionado)" sequence="2" value="climatizacao"/>
+                <element inactive_on_update="false" label="Elétrica" sequence="0" value="eletrica"/>
+                <element inactive_on_update="false" label="Hidráulica" sequence="1" value="hidraulica"/>
+                <element inactive_on_update="false" label="Limpeza e Conservação" sequence="4" value="limpeza_conservacao"/>
+            </choice>
+        </element>
+        <element choice="3" label="Andar / Setor" max_length="255" name="andar_setor" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Térreo - Lounge &amp; Recepção" sequence="0" value="terreo"/>
+                <element inactive_on_update="false" label="Andar 2 - Salas de Reunião &amp; Executive" sequence="2" value="andar_2"/>
+                <element inactive_on_update="false" label="Andar 1 - Open Space &amp; Co-working" sequence="1" value="andar_1"/>
+                <element inactive_on_update="false" label="Andar 3 - Hub de Inovação e Salas de Treinamento" sequence="3" value="andar_3"/>
+            </choice>
+        </element>
+    </element>
+</database>

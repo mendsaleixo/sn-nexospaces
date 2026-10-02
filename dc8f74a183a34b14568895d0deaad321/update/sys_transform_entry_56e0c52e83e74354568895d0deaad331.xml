@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="x_1915295_nexosp_0_x_nexospaces_espaco_transform_map">5ae04daa83a74354568895d0deaad3ca</map>
+        <reference_value_field/>
+        <source_field>u_tipo</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_1915295_nexosp_0_1790596722827</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 12:00:28</sys_created_on>
+        <sys_id>56e0c52e83e74354568895d0deaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_tipo</sys_name>
+        <sys_package display_value="NexoSpaces" source="x_1915295_nexosp_0">dc8f74a183a34b14568895d0deaad321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexoSpaces">dc8f74a183a34b14568895d0deaad321</sys_scope>
+        <sys_update_name>sys_transform_entry_56e0c52e83e74354568895d0deaad331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 12:00:28</sys_updated_on>
+        <target_field>tipo</target_field>
+        <target_table>x_1915295_nexosp_0_x_nexospaces_espaco</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

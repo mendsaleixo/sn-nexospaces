@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b5548126832b4354568895d0deaad336" extends="task" label="Incidente de TI" max_length="40" name="x_1915295_nexosp_0_incidente_de_ti" type="collection">
+        <element choice="3" label="Severidade" max_length="255" name="severidade" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Média" sequence="1" value="media"/>
+                <element inactive_on_update="false" label="Alta (Impacta múltiplos usuários)" sequence="2" value="alta"/>
+                <element inactive_on_update="false" label="Baixa" sequence="0" value="baixa"/>
+            </choice>
+        </element>
+        <element choice="3" label="Categoria de TI" max_length="255" name="categoria_de_ti" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rede e Wi-fi" sequence="0" value="rede_wi_fi"/>
+                <element inactive_on_update="false" label="Impressora e Periféricos" sequence="1" value="impressora_perifericos"/>
+                <element inactive_on_update="false" label="Software / Acesso" sequence="3" value="software_acesso"/>
+                <element inactive_on_update="false" label="Equipamentos de Sala (Projetor/Vídeo)" sequence="2" value="equipamentos_sala_"/>
+            </choice>
+        </element>
+    </element>
+</database>
